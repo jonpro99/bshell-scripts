@@ -1,6 +1,6 @@
 #!/bin/bash
-USERNAME='fyu'
-USERPW='PasswordFU##23'
+USERNAME=''
+USERPW=''
 mysql --login-path=jwadmin -h 10.44.212.50 -e "grant all privileges on *.* to '${USERNAME}'@'%' identified by '${USERPW}' with grant option;flush privileges;"
 mysql --login-path=jwadmin -h 10.44.212.51 -e "grant all privileges on *.* to '${USERNAME}'@'%' identified by '${USERPW}' with grant option;flush privileges;"
 mysql --login-path=jwadmin -h 10.44.212.52 -e "grant all privileges on *.* to '${USERNAME}'@'%' identified by '${USERPW}' with grant option;flush privileges;"
