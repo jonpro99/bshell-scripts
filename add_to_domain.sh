@@ -5,9 +5,9 @@ echo '==================================================='
 
 ##Define Vars::
 HOSTNAME=`hostname`
-DOMAINNAME="TRENDSHIFT.INT"
-DOMAINUSER="jprough"
-DOMAINPASS="Ohsohot3!"
+DOMAINNAME=""
+DOMAINUSER="h"
+DOMAINPASS=""
 ###############################
 ##For a interactive install####
 ###############################
